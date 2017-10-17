@@ -1,0 +1,177 @@
+
+@font-face {
+  font-family: 'GrutchShaded-webfont';
+  src: url('GrutchShaded-webfont.eot?') format('eot'), url('GrutchShaded-webfont.woff') format('woff'), url('GrutchShaded-webfont.ttf') format('truetype');
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+h1{
+  text-align: center;
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  font-size: 45px;
+  color: #e1e6ed;
+  display: block;
+  background-color: #2a2b2d;
+  padding: 0.2em 1em;
+  box-decoration-break: clone;
+
+}
+/*
+h2{
+  text-align: left;
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  font-size: 20px;
+  color: #e1e6ed;
+  display: block;
+  background-color: #2a2b2d;
+  padding: 0.2em 0.5em;
+  box-decoration-break: clone;
+}
+
+h3{
+  text-align: left;
+  font-family: 'PermanentMarker', helvetica, sans-serif;
+  font-size: 20px;
+  color: #bf424d;
+  display: inline-block;
+  background-color: #2a2b2d;
+  padding: 0.1em 0.5em;
+  box-decoration-break: clone;
+}*/
+
+/*.artists ul li h1{
+  text-align: left;
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  font-size: 30px;
+  color: #e1e6ed;
+  display: block;
+  background-color: #2a2b2d;
+  padding: 0.2em 1em;
+  box-decoration-break: clone;
+
+}
+
+.artists ul li h2{
+  text-align: right;
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  font-size: 30px;
+  color: #e1e6ed;
+  display: block;
+  background-color: #2a2b2d;
+  padding: 0.2em 1em;
+  box-decoration-break: clone;
+
+}*/
+
+
+
+
+p{
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  font-size: 20px;
+  color: #748baf;
+  display: inline-block;
+  background-color: #2a2b2d;
+  padding: 0.2em 1em;
+  box-decoration-break: clone;
+}
+
+.artistImage{
+    display: block;
+     border: 15px solid #3e2b14;
+    padding: 10px;
+    float: right;
+    height: 330px;
+    width: 330px;
+    position: absolute;
+    left: 500px;
+    top: 90px;
+}
+
+
+#nav2 ul li a {
+  float: center;
+  list-style: none;
+  display: block;
+  list-style: none;
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  color: #e1e6ed;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+ }
+
+ #nav2 li a:hover {
+   color: #7eb9be;
+   -webkit-transform: rotate(-10deg) scale(1.2);
+   -moz-transform: rotate(-10deg) scale(1.2);
+   -o-transform: rotate(-10deg) scale(1.2);
+ }
+
+
+#nav ul li a {
+  float: left;
+  list-style: none;
+  margin-right: 2em;
+  margin-left: 1em;
+  font-family: 'GrutchShaded-webfont', helvetica, sans-serif;
+  font-size: 30px;
+  padding: 5px;
+  color: #e1e6ed;
+  text-decoration: none;
+}
+
+
+
+#nav li a:hover {
+  color: #7eb9be;
+  -webkit-transform: rotate(-10deg) scale(1.2);
+  -moz-transform: rotate(-10deg) scale(1.2);
+  -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+#nav.left a:hover {
+
+  /*Transition*/
+  -webkit-transition:All .5s ease;
+  -moz-transition:All .5s ease;
+  -o-transition:All .5s ease;
+
+  /*Transform*/
+  -webkit-transform: rotate(-10deg) scale(1.2);
+  -moz-transform: rotate(-10deg) scale(1.2);
+  -o-transform: rotate(-10deg) scale(1.2);
+}
+
+#nav.right a:hover {
+
+  /*Transition*/
+  -webkit-transition:All .5s ease;
+  -moz-transition:All .5s ease;
+  -o-transition:All .5s ease;
+
+  /*Transform*/
+  -webkit-transform: rotate(10deg) scale(1.2);
+  -moz-transform: rotate(10deg) scale(1.2);
+  -o-transform: rotate(10deg) scale(1.2);
+}

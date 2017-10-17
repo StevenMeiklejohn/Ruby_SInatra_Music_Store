@@ -1,0 +1,21 @@
+<h1>Restaurants</h1>
+<div class="offers">
+  <% for restaurant in @restaurants %>
+    <div class="leftposition2">
+      <ul style="list-style-type: none;">
+      <li style="list-style-type: none;"><a href="/welcome/restaurant_index/<%= restaurant.id %>"></li>
+      <li style="list-style-type: none;"><h2>ID:</h2><h3><%= restaurant.id() %></h3></li>
+      <li style="list-style-type: none;"><h2>Name:</h2><h3><%= restaurant.name %></h3></li>
+      <li style="list-style-type: none;"><h2>Burger_type:</h2><h3><%= restaurant.postcode %></h2></li>
+      </ul></a>
+      <a href="/welcome/restaurant_index/<%= restaurant.id %>/menu">
+      <img id="RestaurantImage" class="RestaurantImage" src="<%= restaurant.image_url %>">
+      </a>
+      <div id="rectangle"></div>
+  <% end %>
+      </br>
+      </br>
+      </br>
+    </div>
+  </div>
+

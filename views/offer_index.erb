@@ -1,0 +1,25 @@
+<h1>Offers</h1>
+<div class="offers">
+  <% for offer in @offers %>
+    <div class="leftposition2">
+      <ul style="list-style-type: none;">
+      <li style="list-style-type: none;"><a href="/welcome/offer_index/<%= offer.id %>"></li>
+      <li style="list-style-type: none;"><h2>ID:</h2><h3><%= offer.id() %></h3></li>
+      <li style="list-style-type: none;"><h2>Title:</h2><h3><%= offer.title %></h3></li>
+      <li style="list-style-type: none;"><h2>Burger_type:</h2><h3><%= offer.burger_type %></h2></li>
+      <li style="list-style-type: none;"><h2>Price:</h2><h3><%= offer.price %></h3></li>
+      <li style="list-style-type: none;"><h2>Saving:</h2><h3><%= offer.saving %></h3></li>
+      <li style="list-style-type: none;"><h2>Day:</h2><h3><%= offer.day %></h3></li>
+      <li style="list-style-type: none;"><h2>Restaurant ID:</h2><h3><%= offer.eatery.name() %></h3></li>
+      </ul></a>
+      <a href="/welcome/offer_index/<%= offer.id %>/menu">
+      <img id="OfferImage" class="OfferImage" src="<%= offer.image_url %>">
+      </a>
+      <div id="rectangle"></div>
+  <% end %>
+      </br>
+      </br>
+      </br>
+    </div>
+  </div>
+

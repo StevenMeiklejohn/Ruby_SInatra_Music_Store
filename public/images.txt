@@ -1,0 +1,88 @@
+oh all right
+https://s-media-cache-ak0.pinimg.com/736x/1e/93/e4/1e93e4ee04ae521899ad67219c6d4c9d.jpg
+
+diner
+https://66.media.tumblr.com/84c6b322cc1fab45b2838a94a57d45f5/tumblr_nr04tjBbfY1s0y623o1_500.jpg
+
+
+batman
+http://cz598rxdt5our6verxu01782.wpengine.netdna-cdn.com/wp-content/uploads/2016/01/IbzoYQB5Tx3OwM3534HQ_actionburger02big.jpg
+
+superman_eating
+http://data.whicdn.com/images/74539683/large.jpg
+
+fat_spiderman
+http://payload278.cargocollective.com/1/0/19261/7876182/fc_spiderman.jpg
+
+fat magneto
+http://payload278.cargocollective.com/1/0/19261/7876182/fc_magneto.jpg
+
+fat turtle
+http://payload278.cargocollective.com/1/0/19261/7876182/fc_raphael_14.jpg
+
+fat ant-man
+http://payload278.cargocollective.com/1/0/19261/7876182/fc_antman.jpg
+
+fat superman
+http://payload278.cargocollective.com/1/0/19261/7876182/fc_super.jpg
+
+fat donald
+http://vignette4.wikia.nocookie.net/rrrather/images/c/c6/Dronald.jpg/revision/latest?cb=20160629232322
+
+fat spock
+http://www.inkoma.com/public/2014/6_05062014105207/05062014105207_fc_spock_905[1].jpg
+
+fat captain america
+http://m.cdn.blog.hu/di/disrupt/image/fc_ca_905.jpg
+
+fat liono
+http://i.imgur.com/dY51dXH.jpg
+
+fat hulk
+http://cdn.shopify.com/s/files/1/0580/0965/products/72dpi-Chunkies_Hulk_1024x1024.jpg?v=1429212692
+
+fat he-man
+http://i.imgur.com/l2hRD2d.jpg
+
+fat cyclops
+http://66.media.tumblr.com/83a1dcb608c2c60ee34a2514847f20b0/tumblr_ngmczroCwT1sp8304o4_1280.jpg
+
+mogwai
+https://s-media-cache-ak0.pinimg.com/736x/38/d0/17/38d0175a3bb5c1ea57258cc0fc325862.jpg
+
+chewbacca
+http://cdn.collider.com/wp-content/uploads/2015/04/star-wars-chunkies-chewie.jpg
+
+r2
+http://youbentmywookie.com/wookie/gallery/0415_alex_solis_chunkies/Alex-Solis-The-Famous-Chunkies-C3PO-686x686.jpg
+
+
+robocop
+http://pix.avaxnews.com/avaxnews/13/6a/00016a13_medium.jpeg
+
+class="<%= @background || 'original' %>"
+
+
+
+
+["http://payload278.cargocollective.com/1/0/19261/7876182/fc_optimusprime_800.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_skeletor_800.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_heman.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/f_thundercat.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fat_aquaman800.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fcdrdoom.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_super.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_mjackson.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_ryu.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_harrypotter.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_yoda.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_chewbacca.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_bobafett.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_batman.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_spiderman.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_ironman.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_thanos.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_punisher.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_spock.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_gremlin.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_wolverine.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_link.jpg", "http://payload278.cargocollective.com/1/0/19261/7876182/fc_hellboy.jpg"]
+
+
+
+
+<!-- <body>
+<div id="leftposition">
+<h1>Offers</h1>
+<% for offer in @offers %>
+<p><a href="/welcome/offer_index/<%= offer.id %>" text-align="left"</a></p>
+<p>ID: <%= offer.id() %></p>
+<p>Title: <%= offer.title %></p>
+<p>Burger_type: <%= offer.burger_type %></p>
+<p>Price: <%= offer.price %></p>
+<p>Saving: <%= offer.saving %></p>
+<p>Day: <%= offer.day %></p>
+<p>Restaurant ID: <%= offer.eatery_id %></p>
+<img id="offer_image" src="<%= offer.image_url %>">
+</div>
+<% end %>
+</body> -->
