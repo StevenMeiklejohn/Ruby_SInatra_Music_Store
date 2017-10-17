@@ -2,28 +2,17 @@
 <h1>Artists</h1>
 
 
-<div class="artists">
+
+<div class="artistsList">
   <% for artist in @artists %>
-      <ul style="list-style-type: none;">
-      <li style="list-style-type: none;"><h1>ID:</h1><h2><%= artist.id() %></h2></li>
-      <li style="list-style-type: none;"><h1>Name:</h1><h2><%= artist.name %></h2></li>
-      <a href="/welcome/artists/<%= artist.id %>/menu">
-      <img id="artistImage" class="artistImage" src="<%= artist.image_url %>">
-      </a>
-      <div id="rectangle"></div>
-      </ul>
+  <ul>
+    <li>
+      <img src="<%= artist.image_url %>" >
+      <h2><%= artist.name %></h2>
     </br>
   </br>
-
-</br>
-
-</br>
-
-</br>
-    
-
-
-
+      <p>Insert artis blurb here.</p>
+    </li>
+  </ul>
   <% end %>
-
-  </div>
+</div>

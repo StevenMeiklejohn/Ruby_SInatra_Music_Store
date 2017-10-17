@@ -14,7 +14,7 @@ end
 
 
 #all artists
-get '/welcome/artists' do
+get '/artists' do
   @artists = Artist.all()
   erb( :artists )
 end
