@@ -34,28 +34,6 @@ body {
   margin: 0;
 }
 
-/*.artists{
-  display: block;
-  float:left;
-  height: 200px;
-  width: 550px;
-  position:absolute;
-  top: 150px;
-  left:20px;
-  line-height:1em;
-}
-
-.artistImage{
-    display: block;
-     border: 15px solid #3e2b14;
-    padding: 10px;
-    float: right;
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    left: 500px;
-    top: 90px;
-}*/
 
 small {
   font-size: 12px;
@@ -198,131 +176,32 @@ nav.shift ul li a:hover:after {
 }
 
 
+
+
 * {margin: 0; padding: 0;}
 
-.artistsList div {
-  margin: 20px;
-}
-
-.artistsList ul {
-  list-style-type: none;
-  width: 60%;
-  padding-left: 20px;
-}
-
-.artistsList h3 {
-  font-family: 'Roboto', sans-serif;
-
-}
-
-.artistsList li img {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 0 15px 0 0;
-}
-
-.artistsList li p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-.artistsList li {
-  padding: 10px;
-  overflow: auto;
-}
-
-.artistsList li:hover {
-  background: #eee;
-  cursor: pointer;
-}
-
-
-
-
-.artist div {
-  margin: 20px;
-}
-
-.artist ul {
-  list-style-type: none;
-  width: 60%;
-  padding-left: 20px;
-}
-
-.artist h3 {
-  font-family: 'Roboto', sans-serif;
-
-}
-
-.artist li img {
-  float: left;
-  width: 200px;
-  height: 200px;
-  margin: 0 15px 0 0;
-}
-
-.artist li p {
-  font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-.artist li {
-  padding: 10px;
-  overflow: auto;
-}
-
-.artist li:hover {
-  background: #eee;
-  cursor: pointer;
-}
-
-
 .artistList div {
-  margin: 20px;
+  /*margin: 400px;*/
 }
 
 .artistList ul {
   list-style-type: none;
   width: 100%;
-  height: 300px;
-  padding-left: 20px;
+  height: 280px;
+  padding-bottom: 45px;
 }
 
 .artistList h3 {
-  font-family: 'Roboto', sans-serif;
-
-}
-.artistList h1 {
-  text-align: center;
-  padding: 10px 0;
-  font-weight: 800;
-  margin: 70px;
-  margin-left: 20px;
-  letter-spacing: -1px;
-  color: inherit;
-  font-size: 30px;
-  background-color: #f1c40f;
-
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
 
-.artistList h2 {
-  text-align: center;
-  padding: 10px 0;
-  font-weight: 800;
-  margin: 70px;
-  margin-left: 20px;
-  letter-spacing: -1px;
-  color: inherit;
-  font-size: 20px;
-  background-color: #f1c40f;
+.artistList li img {
+  font: "Roboto";
+  float: left;
+  width: 265px;
+  height: 265px;
+  margin: 0 15px 0 0;
 
-}
-
-.artistList img {
-
-  width: 250px;
-  height: 250px;
-  margin: 20px 15px 0 0;
-  padding-left: 0px;
 }
 
 .artistList li p {
@@ -330,7 +209,7 @@ nav.shift ul li a:hover:after {
 }
 
 .artistList li {
-  padding: 10px;
+  padding: 30px;
   overflow: auto;
 }
 
@@ -338,3 +217,96 @@ nav.shift ul li a:hover:after {
   background: #eee;
   cursor: pointer;
 }
+
+
+
+.artist div {
+  display: block;
+  width: 35%;
+  height: 350px;
+  float: left
+}
+.artist img {
+  padding:5px;
+  border:5px solid #f1c40f;
+
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin: 0 15px 0 0;
+  margin-left: 30px;
+
+}
+
+
+
+.bio div {
+  padding:10px;
+
+  display: block;
+  background-color: #f1c40f;
+  float: right;
+  width: 600px;
+  height: 300px;
+  margin: 0 15px 0 0;
+  overflow-y:scroll;
+}
+
+.bio div h2 {
+  text-align: right;
+  padding: 5px 10px;
+  font-weight: 400;
+  margin: 0px;
+  margin-left: 350px;
+  margin-right: 70px;
+  letter-spacing: -1px;
+  color: inherit;
+  font-size: 15px;
+  background-color: #f1c40f;
+}
+
+/*.artist div {
+  /*margin: 400px;*/
+}
+
+/*.artist ul {
+  list-style-type: none;
+  width: 100%;
+  height: 280px;
+  padding-bottom: 45px;
+}
+
+.artist h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.artist img {
+  display: block;
+
+  float: left;
+  width: 280px;
+  height: 280px;
+  margin: 0 15px 0 0;
+  padding-left: 20px;
+}
+
+.artist li {
+  display: block;
+  font: "Roboto";
+  float: right;
+
+}
+
+.artist li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.artist li {
+  padding: 30px;
+  overflow: auto;
+}
+
+.artist li:hover {
+  background: #eee;
+  cursor: pointer;
+}*/
