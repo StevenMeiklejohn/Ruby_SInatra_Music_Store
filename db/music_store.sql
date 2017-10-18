@@ -5,7 +5,8 @@ CREATE TABLE artists
 (
   id SERIAL8 primary key,
   name VARCHAR(255),
-  image_url TEXT
+  image_url TEXT,
+  bio TEXT
 );
 
 CREATE TABLE albums

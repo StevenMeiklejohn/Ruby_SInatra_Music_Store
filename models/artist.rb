@@ -2,19 +2,20 @@ require_relative( '../db/sql_runner' )
 require('pry-byebug')
 class Artist
 
-  attr_accessor( :id, :name, :image_url )
+  attr_accessor( :id, :name, :image_url, :bio )
 
   def initialize( options )
     @id = options['id'].to_i if options['id']
     @name = options['name']
     @image_url = options['image_url']
+    @bio = options['bio']
   end
 
   def save()
     sql = "INSERT INTO artists (
-      name, image_url
+      name, image_url, bio
     ) VALUES (
-      '#{ @name }', '#{@image_url}'
+      '#{ @name }', '#{@image_url}', '#{@bio}'
     ) RETURNING *"
     artist_data = SqlRunner.run(sql)
     @id = artist_data.first()['id'].to_i
@@ -37,7 +38,7 @@ class Artist
 
   def self.update( options )
     sql = "UPDATE artists SET
-      name='#{ options['name'] }', image_url='#{@image_url}'
+      name='#{ options['name'] }', image_url='#{@image_url}', bio='#{@bio}'
       WHERE id='#{ options['id'] }'"
     SqlRunner.run( sql )
   end

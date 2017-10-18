@@ -18,13 +18,14 @@ get '/artists' do
   @artists = Artist.all()
   erb( :artists )
 end
-#
+
 # #show specific deal
-# get '/welcome/offer_index/:id' do
-#   @offer = Offer.find(params[:id])
-#   @restaurant = Offer.restaurant_name(params[:id])
-#   erb( :show_offer )
-# end
+get '/artists/:id' do
+  @artist = Artist.find(params[:id])
+  # @albums = Album.albums_by_artist(params[:id])
+  @albums = Album.all()
+  erb( :artist )
+end
 #
 #
 # #show specific deal menu image large.

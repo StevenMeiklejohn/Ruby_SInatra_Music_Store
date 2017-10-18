@@ -1,0 +1,34 @@
+
+<h1>Artists</h1>
+
+
+
+<div class="artistsList">
+<li>
+  <img src="<%= @artist.image_url %>" >
+  <h2><%= @artist.name %></h1>
+  <h2><%= @artist.bio %></h1>
+</br>
+</br>
+</li>
+</div>
+
+
+<div class="artistsList">
+<h1>Albums</h1>
+
+  <% for album in @albums %>
+  <ul>
+    <li>
+
+  <img src="<%= album.image_url %>" >
+  <h2>Title:</h2><h2><%= album.title %></h2>
+  <h2>Genre:</h2><h2><%= album.genre %></h2>
+  <h2>Format:</h2><h2><%= album.format %></h2>
+  <h2>Price:</h2><h2><%= album.price %></h2>
+    </li>
+  </ul>
+  <% end %>
+
+
+</div>

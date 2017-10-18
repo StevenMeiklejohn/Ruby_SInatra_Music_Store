@@ -24,7 +24,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
 }
 
 
@@ -206,7 +206,7 @@ nav.shift ul li a:hover:after {
 
 .artistsList ul {
   list-style-type: none;
-  width: 80%;
+  width: 60%;
   padding-left: 20px;
 }
 
@@ -232,6 +232,109 @@ nav.shift ul li a:hover:after {
 }
 
 .artistsList li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+
+
+
+.artist div {
+  margin: 20px;
+}
+
+.artist ul {
+  list-style-type: none;
+  width: 60%;
+  padding-left: 20px;
+}
+
+.artist h3 {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.artist li img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin: 0 15px 0 0;
+}
+
+.artist li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.artist li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.artist li:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+
+.artistList div {
+  margin: 20px;
+}
+
+.artistList ul {
+  list-style-type: none;
+  width: 100%;
+  height: 300px;
+  padding-left: 20px;
+}
+
+.artistList h3 {
+  font-family: 'Roboto', sans-serif;
+
+}
+.artistList h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 800;
+  margin: 70px;
+  margin-left: 20px;
+  letter-spacing: -1px;
+  color: inherit;
+  font-size: 30px;
+  background-color: #f1c40f;
+
+}
+
+.artistList h2 {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 800;
+  margin: 70px;
+  margin-left: 20px;
+  letter-spacing: -1px;
+  color: inherit;
+  font-size: 20px;
+  background-color: #f1c40f;
+
+}
+
+.artistList img {
+
+  width: 250px;
+  height: 250px;
+  margin: 20px 15px 0 0;
+  padding-left: 0px;
+}
+
+.artistList li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+}
+
+.artistList li {
+  padding: 10px;
+  overflow: auto;
+}
+
+.artistList li:hover {
   background: #eee;
   cursor: pointer;
 }
